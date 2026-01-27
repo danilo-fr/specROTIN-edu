@@ -1,0 +1,12 @@
+SpecROTIN-Edu é uma ferramenta educacional interativa desenvolvida em Python para o estudo da rotação estelar por meio da análise de perfis espectrais. Inspirado na rotina clássica ROTIN (IRAF), o projeto tem como objetivo unir rigor físico, visualização clara e exploração didática, tornando o conceito de alargamento rotacional acessível a estudantes e professores de Astronomia e Astrofísica.
+
+A ferramenta permite a modelagem de linhas espectrais individuais considerando efeitos físicos fundamentais, como o perfil rotacional com escurecimento de bordo (limb darkening), o alargamento instrumental e um perfil intrínseco simples da linha (gaussiano). A partir desses componentes, o espectro teórico é convoluído e comparado diretamente com dados observados normalizados, possibilitando a estimativa do parâmetro  𝑣sin𝑖 por meio da minimização de 𝜒2.
+
+Um dos principais diferenciais do SpecROTIN-Edu é sua interface interativa baseada em widgets, que permite ao usuário ajustar, em tempo real, parâmetros como 𝑣sin𝑖, profundidade da linha, largura intrínseca, resolução espectral e coeficiente de escurecimento de bordo. Essa abordagem favorece o aprendizado exploratório, permitindo visualizar de forma imediata como cada parâmetro físico impacta o perfil observado da linha espectral e a curva de 𝜒2.
+
+O código foi projetado com foco educacional: é modular, bem documentado e utiliza bibliotecas amplamente empregadas na Astronomia moderna, como NumPy, SciPy e Matplotlib. Por isso, pode ser facilmente adaptado para diferentes linhas espectrais, resoluções instrumentais ou contextos de ensino, desde disciplinas introdutórias de Astrofísica até cursos mais avançados de espectroscopia estelar.
+
+O SpecROTIN-Edu é ideal para uso em aulas práticas, oficinas, atividades de extensão, cursos de formação e demonstrações em sala de aula, funcionando tanto como ferramenta conceitual quanto como ponte entre métodos clássicos e práticas computacionais atuais. Mais do que fornecer um valor de 
+𝑣sin𝑖, o objetivo do projeto é ensinar como esse parâmetro emerge da física da linha espectral.
+
+✨ Explorar, ajustar e compreender — esse é o espírito do SpecROTIN-Edu.
