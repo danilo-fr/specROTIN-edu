@@ -2,7 +2,7 @@
 SpecROTIN-Edu is an interactive educational tool in Python for teaching the effects of stellar rotation on spectral profiles. Inspired by the IRAF's ROTIN routine, it allows for the estimation of visini, visualizing in real time the effects of rotational and instrumental broadening on the stellar spectrum, making it ideal for educational activities in Astronomy.
 
 <p align="center">
-  <img src="logo.png" alt="Logo do projeto" width="300">
+  <img src="logo.png" alt="" width="300">
 </p>
 
 # Spectral line fitting and vsini determination
@@ -67,7 +67,7 @@ To apply the method, the user should:
 - Optional figure saving from the interactive interface.
 
 <p align="center">
-  <img src="specrotin-edu.pdf" alt="" width="300">
+  <img src="specrotin-edu.png" alt="" width="300">
 </p>
 
 ## Notes
