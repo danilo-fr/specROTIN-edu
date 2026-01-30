@@ -66,6 +66,10 @@ To apply the method, the user should:
 - χ²(`v sin i`) curve used to identify the optimal rotational velocity.
 - Optional figure saving from the interactive interface.
 
+<p align="center">
+  <img src="specrotin-edu.pdf" alt="" width="300">
+</p>
+
 ## Notes
 
 - The code uses a simple χ² definition without observational uncertainties.
