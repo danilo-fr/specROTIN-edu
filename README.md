@@ -1,7 +1,7 @@
 # specROTIN-edu
 SpecROTIN-Edu is an interactive educational tool in Python for teaching the effects of stellar rotation on spectral profiles. Inspired by the IRAF's ROTIN routine, it allows for the estimation of visini, visualizing in real time the effects of rotational and instrumental broadening on the stellar spectrum, making it ideal for educational activities in Astronomy.
 
-# Spectral line fitting and v sin i determination
+# Spectral line fitting and vsini determination
 
 This repository contains a Python code to fit stellar spectral lines and
 estimate the projected rotational velocity (v sin i) by comparing an
@@ -45,6 +45,16 @@ The spectrum is assumed to be:
 9. Interpolate the model onto the observed wavelength grid.
 10. Compute χ² between the observed and modeled spectra.
 11. Scan a grid of `v sin i` values and determine the best-fit solution by minimizing χ².
+
+## WorkflowUser instructions
+
+To apply the method, the user should:
+
+1. Place the FITS spectrum in the same directory as the analysis code.
+2. Set the central wavelength of the spectral line of interest in the script.
+3. Define the pixel range corresponding to the selected spectral region.
+4. Run the code to perform continuum normalization and model fitting.
+5. Inspect the resulting spectral fit and the χ²(`v sin i`) curve to identify the optimal solution.
 
 ## Output
 
