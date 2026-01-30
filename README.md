@@ -67,7 +67,7 @@ To apply the method, the user should:
 - Optional figure saving from the interactive interface.
 
 <p align="center">
-  <img src="specrotin-edu.png" alt="" width="800">
+  <img src="specrotin-edu.png" alt="" width="900">
 </p>
 
 ## Notes
